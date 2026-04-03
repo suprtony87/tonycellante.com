@@ -85,9 +85,10 @@ ul {
 }
 
 .nav-logo img {
-  width: 44px;
-  height: 44px;
+  width: 120px;
+  height: auto;
   object-fit: contain;
+  margin: -28px -20px;
 }
 
 .nav-links {
