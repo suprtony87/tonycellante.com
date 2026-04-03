@@ -490,28 +490,10 @@ ul {
   font-weight: 500;
 }
 
-.timeline-content ul {
-  padding-left: 0;
-}
-
-.timeline-content ul li {
+.timeline-desc {
   font-size: 0.875rem;
   color: var(--text-muted);
-  padding: 4px 0;
-  padding-left: 16px;
-  position: relative;
-  line-height: 1.6;
-}
-
-.timeline-content ul li::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 12px;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background: var(--text-dim);
+  line-height: 1.7;
 }
 
 /* ===== Projects ===== */
