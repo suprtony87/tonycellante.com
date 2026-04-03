@@ -80,10 +80,14 @@ ul {
 }
 
 .nav-logo {
-  font-weight: 700;
-  font-size: 1.25rem;
-  letter-spacing: -0.02em;
-  color: var(--accent-bright);
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
 }
 
 .nav-links {
