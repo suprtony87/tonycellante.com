@@ -1,4 +1,4 @@
-<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="560" height="560" viewBox="232 200 560 600" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="glowGrad" x1="300" y1="280" x2="760" y2="740" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#A78BFA"/>
@@ -12,7 +12,6 @@
       <feGaussianBlur in="SourceGraphic" stdDeviation="22" result="blur"/>
     </filter>
   </defs>
-  <rect width="1024" height="1024" fill="#0B0B0F"/>
   <g>
     <path d="M 704.26 353.00 Q 745.83 377.00 745.83 425.00 L 745.83 599.00 Q 745.83 647.00 704.26 671.00 L 553.57 758.00 Q 512.00 782.00 470.43 758.00 L 319.74 671.00 Q 278.17 647.00 278.17 599.00 L 278.17 425.00 Q 278.17 377.00 319.74 353.00 L 470.43 266.00 Q 512.00 242.00 553.57 266.00 Z" fill="url(#glowGrad)" filter="url(#softGlow)" opacity="0.90"/>
     <path d="M 704.26 353.00 Q 745.83 377.00 745.83 425.00 L 745.83 599.00 Q 745.83 647.00 704.26 671.00 L 553.57 758.00 Q 512.00 782.00 470.43 758.00 L 319.74 671.00 Q 278.17 647.00 278.17 599.00 L 278.17 425.00 Q 278.17 377.00 319.74 353.00 L 470.43 266.00 Q 512.00 242.00 553.57 266.00 Z" fill="#05050A"/>
