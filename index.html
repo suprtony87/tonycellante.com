@@ -3,9 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tony Cellante — AI Product Manager, Builder, Founder</title>
-  <meta name="description" content="Personal site of Tony (Anthony) Cellante — AI Product Manager at Microsoft, former founder, and builder of AI-native consumer products.">
+  <title>Tony Cellante — AI Product Manager</title>
+  <meta name="description" content="Personal site of Tony (Anthony) Cellante — AI product manager at Microsoft who spends nights and weekends making apps, and occasionally taking apart a truck engine.">
+  <meta name="theme-color" content="#14130F">
+  <link rel="canonical" href="https://tonycellante.com/">
+
+  <!-- Open Graph / social -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tonycellante.com/">
+  <meta property="og:title" content="Tony Cellante — AI Product Manager">
+  <meta property="og:description" content="I like making things. AI products at Microsoft by day; apps, side projects, and the occasional truck engine the rest of the time.">
+  <meta property="og:image" content="https://tonycellante.com/tc-logo.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Tony Cellante — AI Product Manager">
+  <meta name="twitter:description" content="I like making things. AI products at Microsoft by day; apps, side projects, and the occasional truck engine the rest of the time.">
+  <meta name="twitter:image" content="https://tonycellante.com/tc-logo.png">
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-1RJR9M8TXM"></script>
   <script>
@@ -18,231 +37,221 @@
   <script type="text/javascript">
     (function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y)})(window,document,"clarity","script","w5oz0unx2n");
   </script>
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
+
   <!-- Nav -->
-  <nav class="nav" id="nav">
+  <nav class="nav">
     <div class="nav-inner">
-      <a href="#hero" class="nav-logo">
-        <img src="tc-logo.png" alt="TC">
-        <span class="nav-logo-text"><span>Tony</span><span>Cellante</span></span>
-      </a>
+      <a href="#top" class="nav-logo">Tony Cellante</a>
       <div class="nav-links">
+        <a href="#work">Work</a>
         <a href="#about">About</a>
         <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
       </div>
-      <button class="nav-toggle" aria-label="Menu">
-        <span></span><span></span><span></span>
-      </button>
     </div>
   </nav>
 
   <!-- Hero -->
-  <section class="hero" id="hero">
-    <div class="hero-bg"></div>
-    <div class="hero-content">
-      <h1 class="hero-name fade-up">Tony Cellante</h1>
-      <p class="hero-tagline fade-up" style="animation-delay: 0.2s">
-        AI Product Manager. Builder. Founder.
-      </p>
-      <p class="hero-sub fade-up" style="animation-delay: 0.3s">
-        I build things from zero to one — from consumer startups to AI-native products at scale. Currently at Microsoft, always shipping side projects.
-      </p>
-      <div class="hero-cta fade-up" style="animation-delay: 0.4s">
-        <a href="#projects" class="btn btn-primary">See What I've Built</a>
-        <a href="#contact" class="btn btn-outline">Get in Touch</a>
-      </div>
-      <div class="hero-links fade-up" style="animation-delay: 0.5s">
-        <a href="https://www.linkedin.com/in/tonycellante/" target="_blank" rel="noopener" aria-label="LinkedIn">
-          <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-        </a>
-        <a href="mailto:acellante@gmail.com" aria-label="Email">
-          <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z"/><path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z"/></svg>
-        </a>
+  <header class="hero" id="top">
+    <div class="hero-lead">
+      <p class="eyebrow accent">AI Product Manager · Tinkerer</p>
+      <h1 class="display">I like<br>making things<span class="accent">.</span></h1>
+      <p class="hero-sub">AI products at Microsoft by day. Nights and weekends, I build apps I wish existed — some go somewhere, some don't.</p>
+      <div class="hero-cta">
+        <a href="#work" class="btn btn-solid">See what I've made <span class="arrow">&rarr;</span></a>
+        <a href="mailto:acellante@gmail.com" class="btn btn-ghost">Say hello</a>
       </div>
     </div>
-    <div class="scroll-indicator fade-up" style="animation-delay: 0.7s">
-      <span></span>
+
+    <dl class="hero-meta">
+      <div class="meta-row"><dt>Now</dt><dd>Microsoft AI · Advertising</dd></div>
+      <div class="meta-row"><dt>Also</dt><dd>US Navy Reserve, Officer</dd></div>
+      <div class="meta-row"><dt>Studio</dt><dd><a class="accent" href="https://astrosignal.co" target="_blank" rel="noopener">astrosignal.co</a></dd></div>
+      <div class="meta-row"><dt>Before</dt><dd>Startups · FX Trading</dd></div>
+      <div class="meta-row"><dt>Shipped</dt><dd>7 things, so far</dd></div>
+      <div class="meta-row meta-row--sep"><dt>Contact</dt><dd><a class="accent" href="mailto:acellante@gmail.com">acellante@gmail.com</a></dd></div>
+      <div class="meta-row"><dt>LinkedIn</dt><dd><a class="accent" href="https://www.linkedin.com/in/tonycellante/" target="_blank" rel="noopener">/in/tonycellante</a></dd></div>
+    </dl>
+  </header>
+
+  <!-- Work -->
+  <section class="section section--alt rule-top" id="work">
+    <div class="container">
+      <div class="section-head rise">
+        <h2 class="display display--sm">Things I've built</h2>
+        <span class="eyebrow dim">07 projects</span>
+      </div>
+
+      <div class="project-index">
+
+        <a class="project" href="https://sitehound.ai" target="_blank" rel="noopener">
+          <span class="p-num"></span>
+          <div class="p-head">
+            <h3>SiteHound.ai</h3>
+            <div class="tags"><span>LLM</span><span>Lead Gen</span><span>Municipal Data</span></div>
+          </div>
+          <p class="p-desc">LLM-powered lead generation that extracts early construction signals from municipal data, so subcontractors find opportunities before permits are issued.</p>
+          <span class="p-status">Piloting</span>
+        </a>
+
+        <a class="project" href="https://quarterdeckwatch.com" target="_blank" rel="noopener">
+          <span class="p-num"></span>
+          <div class="p-head">
+            <h3>Quarterdeck</h3>
+            <div class="tags"><span>PDF417</span><span>Offline-First</span><span>Expo</span></div>
+          </div>
+          <p class="p-desc">Takes military accountability by scanning the barcode on a DoD Common Access Card — entirely on-device, with no network calls and only the fields accountability actually needs.</p>
+          <span class="p-status">Live</span>
+        </a>
+
+        <a class="project" href="https://prontocommute.com" target="_blank" rel="noopener">
+          <span class="p-num"></span>
+          <div class="p-head">
+            <h3>Pronto Commute</h3>
+            <div class="tags"><span>iOS</span><span>Transit</span><span>GTFS</span></div>
+          </div>
+          <p class="p-desc">Commuter rail for the New York metro — live Metro-North, LIRR and NJ Transit tracking, a Home Screen widget, and a fare calculator that settles monthly pass versus one-ways.</p>
+          <span class="p-status">In review</span>
+        </a>
+
+        <div class="project">
+          <span class="p-num"></span>
+          <div class="p-head">
+            <h3>BlackBook</h3>
+            <div class="tags"><span>PWA</span><span>Consumer</span><span>Next.js</span></div>
+          </div>
+          <p class="p-desc">A fully private personal ledger for your romantic life — relationships, interactions, a stats dashboard and map, with privacy baked into the architecture.</p>
+          <span class="p-status">Live</span>
+        </div>
+
+        <div class="project">
+          <span class="p-num"></span>
+          <div class="p-head">
+            <h3>GuestGaze</h3>
+            <div class="tags"><span>AI</span><span>Ambient</span><span>Hospitality</span></div>
+          </div>
+          <p class="p-desc">An ambient display for Airbnb guests that turns weather, sky imagery and local data into a narrative daily experience.</p>
+          <span class="p-status p-status--dim">Built</span>
+        </div>
+
+        <div class="project">
+          <span class="p-num"></span>
+          <div class="p-head">
+            <h3>ScoopLater</h3>
+            <div class="tags"><span>Mobile App</span><span>Consumer</span><span>Claude Code</span></div>
+          </div>
+          <p class="p-desc">Dog owners track and coordinate cleanup across multiple caregivers. Built end-to-end with Claude Code.</p>
+          <span class="p-status">Launched</span>
+        </div>
+
+        <div class="project">
+          <span class="p-num"></span>
+          <div class="p-head">
+            <h3>RollerScrew Constructor</h3>
+            <div class="tags"><span>OpenSCAD</span><span>CAD</span><span>Manufacturing</span></div>
+          </div>
+          <p class="p-desc">Parametric CAD generation for machine shops — automates the design of planetary roller screw components from a web interface.</p>
+          <span class="p-status">Active</span>
+        </div>
+
+      </div>
     </div>
   </section>
 
   <!-- About -->
-  <section class="section about" id="about">
-    <div class="container">
-      <h2 class="section-title reveal">About Me</h2>
-      <div class="about-grid">
-        <div class="about-text reveal">
-          <p>
-            I'm a product manager with an unconventional path: Wall Street trader, startup founder, US Navy officer, and now building AI-native products at Microsoft. I've always been drawn to domains I don't yet understand, which means I've spent most of my career starting from scratch in unfamiliar territory and figuring it out fast.
-          </p>
-          <p>
-            What ties it together is curiosity, a compulsion to build, and the sense of satisfaction that comes from the pursuit of distinctly difficult challenges. I believe the best way to understand a problem is to make something, and that instinct has taken me across industries most PMs never touch. At Microsoft I've shipped products used by millions of advertisers...but I'm just as likely to be prototyping a side project on a weekend, pulling apart an engine on a classic truck to see how it works and posting a how-to video on YouTube to help others, or training for an Ironman Triathlon.
-          </p>
-        </div>
-        <div class="about-details reveal">
-          <div class="detail-card">
-            <h3>Education</h3>
-            <ul>
-              <li><strong>Columbia University</strong><span>M.I.A., Technology & Management</span></li>
-              <li><strong>New York University</strong><span>M.B.A.</span></li>
-              <li><strong>Binghamton University</strong><span>B.S., Finance</span></li>
-            </ul>
-          </div>
-          <div class="detail-card">
-            <h3>What Drives Me</h3>
-            <ul class="drives-list">
-              <li>Zero-to-one product development</li>
-              <li>AI that expands access and opportunity</li>
-              <li>Rapid prototyping with LLM tools</li>
-              <li>Turning complex systems into intuitive products</li>
-            </ul>
-          </div>
+  <section class="section rule-top" id="about">
+    <div class="container about-grid">
+      <div class="rise">
+        <h2 class="display display--sm">How I got here</h2>
+        <p class="about-lead">I've been a currency trader, a startup founder, and a Navy officer, and these days I work on AI products at Microsoft. There was no grand plan — I just keep chasing things I'm curious about, which usually means starting over as the least experienced person in the room.</p>
+        <p class="about-body">The common thread is that I understand things by making them. Reading about a problem only gets me so far; at some point I need to build the thing, break it, and see what actually happens.</p>
+        <p class="about-body">At work that means products used by millions of advertisers. At home it's weekend prototypes, an old truck that's usually in some state of disassembly, and Ironman training when I'm keeping up with it.</p>
+        <div class="pills">
+          <span>Starting from scratch</span>
+          <span>Prototyping with LLMs</span>
+          <span>Making complicated things simple</span>
+          <span>Learning by building</span>
         </div>
       </div>
+
+      <aside class="about-side">
+        <!--
+          Portrait slot from the design (`showPortrait`). Replace the placeholder
+          below with a real photo and uncomment to enable:
+          <img class="portrait" src="portrait.jpg" alt="Tony Cellante" width="800" height="1000">
+        -->
+        <div>
+          <p class="eyebrow accent">Education</p>
+          <div class="edu">
+            <div class="edu-row"><span class="edu-school">Columbia University</span><span class="edu-degree">M.I.A., Technology &amp; Management</span></div>
+            <div class="edu-row"><span class="edu-school">New York University</span><span class="edu-degree">M.B.A.</span></div>
+            <div class="edu-row"><span class="edu-school">Binghamton University</span><span class="edu-degree">B.S., Finance</span></div>
+          </div>
+        </div>
+      </aside>
     </div>
   </section>
 
   <!-- Experience -->
-  <section class="section experience" id="experience">
+  <section class="section section--alt rule-top" id="experience">
     <div class="container">
-      <h2 class="section-title reveal">Experience</h2>
-      <div class="timeline">
+      <h2 class="display display--sm exp-title">Experience</h2>
+      <div class="exp-list">
 
-        <div class="timeline-item reveal">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <h3>Product Manager, Microsoft AI</h3>
-              <span class="timeline-date">2022 — Present</span>
-            </div>
-            <p class="timeline-company">Microsoft Advertising</p>
-            <p class="timeline-desc">Building AI-native products for one of the world's largest advertising platforms.</p>
+        <div class="exp-row">
+          <span class="exp-date exp-date--current">2026 — Present</span>
+          <div class="exp-role">
+            <span class="exp-title-line">Founder</span>
+            <span class="exp-org">Astro Signal LLC</span>
           </div>
+          <p class="exp-desc">The home for my side projects — consumer apps across transit, housing and sustainable living. Publisher of Pronto Commute.</p>
         </div>
 
-        <div class="timeline-item reveal">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <h3>Naval Officer</h3>
-              <span class="timeline-date">2022 — Present</span>
-            </div>
-            <p class="timeline-company">United States Navy Reserve</p>
-            <p class="timeline-desc">Commissioned Reserve officer supporting operational decision-making in high-ambiguity environments.</p>
+        <div class="exp-row">
+          <span class="exp-date exp-date--current">2022 — Present</span>
+          <div class="exp-role">
+            <span class="exp-title-line">Product Manager, Microsoft AI</span>
+            <span class="exp-org">Microsoft Advertising</span>
           </div>
+          <p class="exp-desc">Working on AI features for Microsoft's advertising platform.</p>
         </div>
 
-        <div class="timeline-item reveal">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <h3>Co-Founder</h3>
-              <span class="timeline-date">2014 — 2019</span>
-            </div>
-            <p class="timeline-company">Oak Street Ventures</p>
-            <p class="timeline-desc">Founded and led product for consumer platforms solving information asymmetry for renters and students. Built two products from scratch, scaled organically, and successfully exited.</p>
+        <div class="exp-row">
+          <span class="exp-date exp-date--current">2022 — Present</span>
+          <div class="exp-role">
+            <span class="exp-title-line">Naval Officer</span>
+            <span class="exp-org">United States Navy Reserve</span>
           </div>
+          <p class="exp-desc">Commissioned Reserve officer. A very different kind of team than tech, and a good reminder that most problems aren't software problems.</p>
         </div>
 
-        <div class="timeline-item reveal">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <h3>Associate, Currency Option Trading</h3>
-              <span class="timeline-date">2013 — 2021</span>
-            </div>
-            <p class="timeline-company">MUFG Union Bank</p>
-            <p class="timeline-desc">Started as a G-10 currency options trader, adding product responsibilities helping to build the desk's electronic FX Option trading platform and option lifecycle management tools.</p>
+        <div class="exp-row">
+          <span class="exp-date">2014 — 2019</span>
+          <div class="exp-role">
+            <span class="exp-title-line">Co-Founder</span>
+            <span class="exp-org">Oak Street Ventures</span>
           </div>
+          <p class="exp-desc">Built two consumer products for renters and students with my co-founders. We grew them mostly by word of mouth, and eventually sold the business.</p>
         </div>
 
-        <div class="timeline-item reveal">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <h3>Project Manager</h3>
-              <span class="timeline-date">2009 — 2013</span>
-            </div>
-            <p class="timeline-company">Cisco Systems</p>
-            <p class="timeline-desc">Project manager delivering enterprise infrastructure across networking, VoIP, and video for Fortune 500 clients.</p>
+        <div class="exp-row">
+          <span class="exp-date">2013 — 2021</span>
+          <div class="exp-role">
+            <span class="exp-title-line">Associate, Currency Option Trading</span>
+            <span class="exp-org">MUFG Union Bank</span>
           </div>
+          <p class="exp-desc">G-10 currency options trader, then product owner for the desk's electronic FX option trading platform and lifecycle management tools.</p>
         </div>
 
-      </div>
-    </div>
-  </section>
-
-  <!-- Projects -->
-  <section class="section projects" id="projects">
-    <div class="container">
-      <h2 class="section-title reveal">Things I've Built</h2>
-      <p class="section-subtitle reveal">I'm always building something. Here are a few recent projects.</p>
-      <div class="projects-grid">
-
-        <div class="project-card reveal">
-          <div class="project-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="32" height="32"><path d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 0h.008v.008h-.008V7.5zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z"/></svg>
+        <div class="exp-row">
+          <span class="exp-date">2009 — 2013</span>
+          <div class="exp-role">
+            <span class="exp-title-line">Project Manager</span>
+            <span class="exp-org">Cisco Systems</span>
           </div>
-          <h3>SiteHound.ai</h3>
-          <p>LLM-powered lead generation platform that extracts early construction signals from municipal data, enabling subcontractors to find opportunities before permits are issued.</p>
-          <div class="project-tags">
-            <span>LLM</span><span>Lead Gen</span><span>Municipal Data</span>
-          </div>
-          <span class="project-status">Piloting with customers</span>
-        </div>
-
-        <div class="project-card reveal">
-          <div class="project-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="32" height="32"><path d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"/></svg>
-          </div>
-          <h3>BlackBook</h3>
-          <p>Fully private personal ledger for your romantic life. Tracks relationships, interactions, and intimacy with a stats dashboard and interactive map — with privacy baked into the architecture.</p>
-          <div class="project-tags">
-            <span>PWA</span><span>Consumer</span><span>Supabase</span><span>Next.js</span>
-          </div>
-          <span class="project-status">Live</span>
-        </div>
-
-        <div class="project-card reveal">
-          <div class="project-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="32" height="32"><path d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"/></svg>
-          </div>
-          <h3>GuestGaze</h3>
-          <p>AI-powered ambient display for Airbnb guests. Transforms weather, sky imagery, and local data into a narrative daily experience designed to delight.</p>
-          <div class="project-tags">
-            <span>AI</span><span>Ambient</span><span>Hospitality</span>
-          </div>
-          <span class="project-status">Built</span>
-        </div>
-
-        <div class="project-card reveal">
-          <div class="project-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="32" height="32"><path d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"/></svg>
-          </div>
-          <h3>ScoopLater</h3>
-          <p>Consumer mobile app for dog owners to track and coordinate cleanup events across multiple caregivers. Built end-to-end using Claude Code.</p>
-          <div class="project-tags">
-            <span>Mobile App</span><span>Consumer</span><span>Claude Code</span>
-          </div>
-          <span class="project-status">Launched</span>
-        </div>
-
-        <div class="project-card reveal">
-          <div class="project-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="32" height="32"><path d="M21 7.5l-9-5.25L3 7.5m18 0l-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9"/></svg>
-          </div>
-          <h3>RollerScrew Constructor</h3>
-          <p>Parametric CAD generation software for machine shops. Automates design of planetary roller screw components via a web-based interface.</p>
-          <div class="project-tags">
-            <span>OpenSCAD</span><span>CAD</span><span>Manufacturing</span>
-          </div>
-          <span class="project-status">Active</span>
+          <p class="exp-desc">Delivered enterprise infrastructure across networking, VoIP and video for Fortune 500 clients.</p>
         </div>
 
       </div>
@@ -252,29 +261,19 @@
   <!-- Contact -->
   <section class="section contact" id="contact">
     <div class="container">
-      <h2 class="section-title reveal">Let's Connect</h2>
-      <p class="contact-text reveal">
-        I'm always up for a conversation about AI products, building things from scratch, or interesting problems worth solving.
-      </p>
-      <div class="contact-links reveal">
-        <a href="mailto:acellante@gmail.com" class="contact-link">
-          <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z"/><path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z"/></svg>
-          <span>acellante@gmail.com</span>
-        </a>
-        <a href="https://www.linkedin.com/in/tonycellante/" target="_blank" rel="noopener" class="contact-link">
-          <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-          <span>LinkedIn</span>
-        </a>
+      <p class="eyebrow contact-eyebrow">Let's connect</p>
+      <h2 class="display contact-title">Always up for a good problem<span class="contact-dot">.</span></h2>
+      <p class="contact-sub">If you want to talk AI products, side projects, or anything you're stuck on, my inbox is open.</p>
+      <div class="contact-cta">
+        <a href="mailto:acellante@gmail.com" class="btn btn-dark">acellante@gmail.com</a>
+        <a href="https://www.linkedin.com/in/tonycellante/" target="_blank" rel="noopener" class="btn btn-line">LinkedIn</a>
       </div>
+      <footer class="contact-footer">
+        <span>Tony Cellante</span>
+        <span>Handmade, mostly on weekends</span>
+      </footer>
     </div>
   </section>
 
-  <footer class="footer">
-    <div class="container">
-      <p>Built by Tony Cellante</p>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
