@@ -318,20 +318,7 @@ a {
   margin-bottom: 10px;
 }
 
-/* External-link arrow on cards that link to a live homepage */
-a.project .p-head h3::after {
-  content: "\2197";
-  font-family: var(--mono);
-  font-size: 16px;
-  color: var(--dim);
-  margin-left: 10px;
-  vertical-align: 4px;
-  transition: color 0.25s;
-}
-
-a.project:hover .p-head h3::after { color: var(--accent); }
-
-/* Explicit link row for cards with more than one destination */
+/* Explicit link row for cards that link out */
 .p-links {
   display: flex;
   gap: 18px;
